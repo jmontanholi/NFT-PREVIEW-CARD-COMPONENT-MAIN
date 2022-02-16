@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/jmontanholi/NFT-PREVIEW-CARD-COMPONENT-MAIN)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/jmontanholi/NFT-PREVIEW-CARD-COMPONENT-MAIN
+- Live Site URL: https://jmontanholi.github.io/NFT-PREVIEW-CARD-COMPONENT-MAIN/
 
 ## My process
 
