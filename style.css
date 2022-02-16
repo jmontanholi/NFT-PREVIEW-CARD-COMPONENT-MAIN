@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: hsl(217, 54%, 11%);
+  height: 100vh;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 15rem);
+  color: white;
+}
+
+.attribution a {
+  color: white;
+  transition: 0.5s;
+}
+
+.attribution a:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.card {
+  background-color: hsl(216, 50%, 16%);
+  width: 20rem;
+  height: 33rem;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cardImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(/images/image-equilibrium.jpg) center no-repeat;
+  width: 17rem;
+  height: 17rem;
+  background-size: 17rem;
+  border-radius: 8px;
+  margin-top: 1.5rem;
+  transition: 10s;
+}
+
+.cardImg img{
+  display: none;
+  transition: 1s;
+}
+
+.cardImg:hover {
+  background: linear-gradient(90deg,hsla(178, 100%, 50%, 0.37),  hsla(178, 100%, 50%, 0.37)), url(/images/image-equilibrium.jpg) center no-repeat;
+  background-size: 17rem;
+  cursor: pointer;
+}
+
+.cardImg:hover img {
+  display: flex;
+}
+
+.contentDiv {
+  margin: 0 1.5rem 0 1.5rem;
+  border-bottom: 1px solid rgba(180, 180, 180, 0.199);
+  margin-bottom: 0.2rem;
+}
+
+.title {
+  color: white;
+  font-weight: 600;
+  font-size: 1.3rem;
+  transition: 0.5s;
+}
+
+.title:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+.description {
+  font-weight: 300;
+}
+
+.description,
+.time {
+  color: hsl(215, 51%, 70%);
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.price {
+  color: hsl(178, 100%, 50%);
+}
+
+.time,
+.price {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.time img,
+.price img {
+  margin-right: 0.5rem;
+}
+
+.creatorDiv {
+  display: flex;
+  align-items: center;
+  width: calc(100% - 3rem);
+  margin-bottom: 1rem;
+}
+
+.avatar {
+  border: 1px solid white;
+  border-radius: 50%;
+  height: 30px;
+  margin-right: 1rem;
+}
+
+.creator {
+  color: hsl(215, 51%, 70%);
+}
+
+.creatorSpan {
+  color: white;
+  transition: 0.5s;
+}
+
+.creatorSpan:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
