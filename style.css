@@ -43,7 +43,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url(/images/image-equilibrium.jpg) center no-repeat;
+  background: url(./images/image-equilibrium.jpg) center no-repeat;
   width: 17rem;
   height: 17rem;
   background-size: 17rem;
